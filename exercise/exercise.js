@@ -4,7 +4,8 @@ function repeatHello(callback) {
 }
 
 setTimeout(() => {
-  clearInterval(interval), console.log("STOP");
+  clearInterval(interval);
+  console.log("STOP");
 }, 5000);
 
 const callingBack = () => console.log("Hello");
